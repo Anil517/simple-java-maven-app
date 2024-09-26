@@ -14,6 +14,8 @@ node
        }
         def mvnHome = tool name: 'Maven', type: 'maven'
         
+        echo "anilanil" 
+        
         def name = "')'^no!t@mrofn!\$'('" 
         sh "${mvnHome}/bin/mvn clean -DreleaseVersion=${name} -DdevelopmentVersion=${Var1}-'gkefinal'"
     }
